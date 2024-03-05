@@ -524,6 +524,7 @@ class FileTransferApp(tk.Tk):
         super().__init__()
         self.title("ETON BACKUP  -  TEXTILE SOURCING COMPANY SAC BIC")
         self.geometry("497x342")
+        #self.geometry("497x342")  -  Windows7
         self.resizable(False, False)
         self.load_config()
         self.log_entries = []
